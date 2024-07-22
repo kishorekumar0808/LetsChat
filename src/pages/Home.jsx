@@ -4,9 +4,9 @@ import Chat from "../components/Chat";
 
 const Home = () => {
   return (
-    <div className="home">
+    <div className="home" data-testid="home">
       <div className="container">
-        <Sidebar />
+        <Sidebar testId="container" />
         <Chat />
       </div>
     </div>
